@@ -7,6 +7,7 @@ function App() {
     <div className="App"> UW Huskies JunoCam Image Processing WebApp
     <fieldset>
       <QueryInput/>
+      
     </fieldset>
     </div>
   );

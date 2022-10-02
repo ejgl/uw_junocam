@@ -14,7 +14,7 @@ function QueryInput() {
     return (
        <form onSubmit={handleSubmit(onSubmit)}>
         <legend>
-            JunoCam Query
+            JunoCam Query (Time-based)
         </legend>
         <label> Input Time
             <input type='text' {...register('time', {required: true})}/>
@@ -22,6 +22,7 @@ function QueryInput() {
         <label> Number of Images
             <input type='number' {...register('number_of_images', {required: true}) }/>
         </label>
+        <button type='submit'>Get Images</button>
        </form>
 
     )
